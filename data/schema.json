@@ -1,0 +1,64 @@
+{
+  "source": "Wound Assessment Form; Architecture Requirement: The Local-First Approach",
+  "units": ["cm", "mm"],
+  "yesNo": ["Yes", "No"],
+  "tissueTypes": [
+    { "id": "necrotic", "label": "Necrotic (black)" },
+    { "id": "sloughy", "label": "Sloughy (yellow/green)" },
+    { "id": "granulating", "label": "Granulating (red)" },
+    { "id": "epithelialising", "label": "Epithelialising (pink)" },
+    { "id": "hypergranulating", "label": "Hypergranulating" },
+    { "id": "hematoma", "label": "Hematoma" },
+    { "id": "boneTendon", "label": "Bone/tendon exposed" }
+  ],
+  "exudateLevels": ["Dry/Moist", "Wet", "Saturated/Leaking"],
+  "exudateTypes": [
+    { "id": "Serous", "label": "Serous (thin, watery, straw colored)" },
+    { "id": "Serosanguinous", "label": "Serosanguinous (thin, watery, pale red to pink)" },
+    { "id": "Purulent", "label": "Purulent (thin or thick, cloudy, milky, tan or yellow)" },
+    { "id": "Foul purulent", "label": "Foul purulent (green, blueish, yellow, or brown)" }
+  ],
+  "periwound": [
+    "Macerated (white, moist)",
+    "Edematous",
+    "Erythema (red)",
+    "Excoriated (red)",
+    "Fragile",
+    "Dry/scaly",
+    "Healthy/intact"
+  ],
+  "infectionSigns": [
+    "Heat / warmth",
+    "New slough/necrosis (deteriorating wound bed)",
+    "Increasing pain",
+    "Increasing exudate",
+    "Increasing odor",
+    "Friable granulation tissue"
+  ],
+  "objectives": [
+    "Debridement",
+    "Absorption",
+    "Hydration",
+    "Protection / promote healing",
+    "Palliative / conservative",
+    "Reduce bacterial load"
+  ],
+  "healingFactors": [
+    "Immobility",
+    "Poor nutrition",
+    "Diabetes",
+    "Incontinence",
+    "Anemia",
+    "HIV+",
+    "Respiratory/circulatory disease",
+    "Medication",
+    "Wound infection",
+    "Edema",
+    "LEVD",
+    "LEAD",
+    "Anti-coagulants",
+    "Steroids",
+    "Chemotherapy",
+    "Other"
+  ]
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Wound Care</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <section id="login-screen" class="login-screen" hidden>
+    <form id="login-form" class="login-card">
+      <div class="login-mark">MBH</div>
+      <h1>Mbingo Baptist Hospital</h1>
+      <p class="login-sub">Wound Care</p>
+      <label class="login-field">
+        <span>Username</span>
+        <input id="login-user" name="username" autocomplete="username" required />
+      </label>
+      <label class="login-field">
+        <span>Password</span>
+        <input id="login-pass" name="password" type="password" autocomplete="current-password" required />
+      </label>
+      <label class="login-field">
+        <span>Location</span>
+        <select id="login-location" name="location" required>
+          <option value="">Select location</option>
+          <option>Wound care</option>
+        </select>
+      </label>
+      <p id="login-error" class="login-error" role="alert" hidden></p>
+      <button type="submit" class="btn btn-primary login-submit">Log in</button>
+    </form>
+  </section>
+  <div id="app" hidden>
+  <header class="app-header">
+    <div class="brand">
+      <div class="brand-mark">MBH</div>
+      <div>
+        <div class="brand-title">Wound Care</div>
+        <div class="brand-sub">Mbingo Baptist Hospital · Local</div>
+      </div>
+    </div>
+    <div class="header-actions">
+      <span id="session-label" class="save-state"></span>
+      <span id="save-state" class="save-state">Not saved yet</span>
+      <button type="button" id="btn-new" class="btn btn-ghost">Register patient</button>
+      <button type="button" id="btn-assessment" class="btn btn-ghost">Add assessment</button>
+      <button type="button" id="btn-preview" class="btn btn-ghost">Preview</button>
+      <button type="button" id="btn-print" class="btn btn-ghost">Print</button>
+      <button type="button" id="btn-download" class="btn btn-primary">Download</button>
+      <button type="button" id="btn-csv" class="btn btn-ghost">Export CSV</button>
+      <button type="button" id="btn-signout" class="btn btn-ghost">Log out</button>
+    </div>
+  </header>
+  <div class="layout">
+    <nav id="tree" class="tree" aria-label="Chart outline"></nav>
+    <main id="main" class="main"></main>
+  </div>
+  <article id="print-root" class="print-root"></article>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
